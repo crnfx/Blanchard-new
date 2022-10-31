@@ -1958,8 +1958,14 @@ body {
 }
 
 .location__label {
-  display: flex;
-  flex-direction: column-reverse;
+  position: relative;
+}
+
+.just-validate-error-label {
+  position: absolute;
+  top: -14px;
+  left: 10px;
+  font-size: 12px;
 }
 
 .location__subtitle {
